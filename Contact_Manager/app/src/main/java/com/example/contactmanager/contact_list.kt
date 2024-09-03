@@ -1,11 +1,11 @@
-package com.example.timer
+package com.example.contactmanager
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class second_activity : AppCompatActivity() {
+class contact_list : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_second)
+        setContentView(R.layout.activity_contact_list)
     }
 }
